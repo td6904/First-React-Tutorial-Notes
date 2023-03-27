@@ -19,3 +19,11 @@ Write JS like HTML with ReactDOM etc
 ---
 
 JSX = JavaScript XML - think of it as a flavour of JS like HTML. Creates JS object and describes DOM. Includes props - header, and children. Remember\*\*
+
+---
+
+From 40:19 Goodbye, CDNs!, need to figure out how to get it to work importing react and not using links in head!
+
+---
+
+Paused at 50m30s, writing HTML for first project!

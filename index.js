@@ -97,15 +97,14 @@ ReactDOM.render(
 
 */
 
-const navbar = (
-  <nav className="header">
-    <h1>Tyler's site</h1>
-    <ul>
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
+// import React from "react";
+// import ReactDOM from "react-dom";
+
+const header = (
+  <nav className="logo">
+    <header>Tyler's ReactFACTS</header>
+    <p>React Course - Project 1</p>
   </nav>
 );
 
-ReactDOM.render(navbar, document.getElementById("root"));
+ReactDOM.render(header, document.getElementById("root"));
