@@ -100,36 +100,57 @@ ReactDOM.render(
 // import React from "react";
 // import ReactDOM from "react-dom";
 
+// import Header from "./Header.js";
+// import Body from "./Body.js";
+// import Footer from "./Footer.js";
+
 function Header() {
   return (
-  <nav className="logo">
-    <img src="react-logo.png" height="40px"></img>
-    <header>Tyler's ReactFACTS</header>
-    <p>React Course - Project 1</p>
-  </nav>
-);
-  }
+    <header>
+      <nav className="nav">
+        <img src="react-logo.png" className="main-logo" />
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
 
-function Body() { 
+function Body() {
   return (
-  <div>
-    <h1>Fun facts about React</h1>
-    <img src="react-logo.png" height="40px"></img>
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was originally created by Jordan Walke</li>
-      <li>Has well over 100K stars on GitHub</li>
-      <li>Is maintained by Facebook</li>
-      <li>Powers thousands of enterprise apps, including mobile apps</li>
-    </ul>
-  </div>
-);
+    <div>
+      <h1>Fun facts about React</h1>
+      {/* <img src="react-logo.png" height="60px" /> */}
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on GitHub</li>
+        <li>Is maintained by Facebook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+    </div>
+  );
+}
+
+
+function Footer() {
+  return (
+    <div>
+      <footer className="footer">
+        <small className="footer-text">Tyler Development</small>
+      </footer>
+    </div>
+  );
 }
 
 ReactDOM.render(
   <div>
     <Header />
     <Body />
+    <Footer />
   </div>,
   document.getElementById("root")
 );
