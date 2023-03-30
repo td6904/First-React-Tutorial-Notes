@@ -100,11 +100,36 @@ ReactDOM.render(
 // import React from "react";
 // import ReactDOM from "react-dom";
 
-const header = (
+function Header() {
+  return (
   <nav className="logo">
+    <img src="react-logo.png" height="40px"></img>
     <header>Tyler's ReactFACTS</header>
     <p>React Course - Project 1</p>
   </nav>
 );
+  }
 
-ReactDOM.render(header, document.getElementById("root"));
+function Body() { 
+  return (
+  <div>
+    <h1>Fun facts about React</h1>
+    <img src="react-logo.png" height="40px"></img>
+    <ul>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100K stars on GitHub</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
+    </ul>
+  </div>
+);
+}
+
+ReactDOM.render(
+  <div>
+    <Header />
+    <Body />
+  </div>,
+  document.getElementById("root")
+);
