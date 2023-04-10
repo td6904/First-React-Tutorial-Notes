@@ -1,3 +1,5 @@
+First practice file for the tutorial below. Initialised from scratch and not using react-app therefore is not run with the command npm start. The results are pretty much the same (except for styling) but the following repo contains the first finished project Fun Facts about react.
+
 Following video - https://www.youtube.com/watch?v=bMknfKXIFA8 React Course - Beginner's Tutorial for React JavaScript Library [2022]
 
 Imported these links to use react. In other course did it in typescript files! https://legacy.reactjs.org/docs/cdn-links.
