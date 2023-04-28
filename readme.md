@@ -1,35 +1,78 @@
-First practice file for the tutorial below. Initialised from scratch and not using react-app therefore is not run with the command npm start. The results are pretty much the same (except for styling) but the following repo contains the first finished project Fun Facts about react.
+# First-React-Tutorial-Notes
 
-File renamed.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Following video - https://www.youtube.com/watch?v=bMknfKXIFA8 React Course - Beginner's Tutorial for React JavaScript Library [2022]
+# Getting Started with Create React App
 
-Imported these links to use react. In other course did it in typescript files! https://legacy.reactjs.org/docs/cdn-links.
+## Available Scripts
 
-### What is a CDN ? A content delivery network (CDN) refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content.
+In the project directory, you can run:
 
----
+### `npm start`
 
-React is Composable - David statue example with marble vs legobricks.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-React is declarative - What should be done vs imperative - How should it be done (everything has to be clear and described well). Example below
-Imperative:
-const h1 = document.createElement("h1")
-h1.textContent = "This is imperative"
-h1.className = "header"
-document.getElementById("root").append(h1)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Declartive:
-Write JS like HTML with ReactDOM etc
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-JSX = JavaScript XML - think of it as a flavour of JS like HTML. Creates JS object and describes DOM. Includes props - header, and children. Remember\*\*
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-From 40:19 Goodbye, CDNs!, need to figure out how to get it to work importing react and not using links in head!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Paused at 50m30s, writing HTML for first project!
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+----
+
+## About
+
+First practice file for the 12h tutorial I followed to learn React. This repo is kept for notes however, the first project I built with the tutorial is here: https://github.com/td6904/Fun-facts-about-React-Project
